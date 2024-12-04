@@ -7,7 +7,6 @@ import 'dart:convert';
 class ChatHomeScreen extends StatefulWidget {
   final Map<String, dynamic> user;
   const ChatHomeScreen({Key? key, required this.user}) : super(key: key);
-
   @override
   _ChatHomeScreenState createState() => _ChatHomeScreenState();
 }
